@@ -14,12 +14,14 @@ if ( !is_user_logged_in() ) {
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Pedidos</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10,se-1.1.0/datatables.min.css"/>
 
     <script type="text/javascript" src="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10,se-1.1.0/datatables.min.js"></script>
 
     <script type="text/javascript" src="http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/jquery.noty.packaged.min.js"></script>
+
+    <script type="text/javascript" src="http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ion.sound.min.js"></script>
 
 
     <style>
@@ -72,6 +74,44 @@ if ( !is_user_logged_in() ) {
 <script>
 
     $(document).ready(function() {
+        if (Notification.permission !== "granted") Notification.requestPermission();
+        if (!Notification) {
+            alert('Desktop notifications not available in your browser. Try Chrome.');
+            return;
+        }
+        /*setInterval(function(){
+            var notification = new Notification('Notification title', {
+                icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
+                body: "Hey there! You've been notified!",
+            });
+        }, 3000);*/
+
+
+        ion.sound({
+            sounds: [
+                {
+                    name: "metal_plate_2",
+                    preload: true
+                }
+            ],
+
+            path: "http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/sounds/",
+            preload: false,
+            multiplay: true,
+            volume: 0.9,
+
+            scope: this, // optional scope
+            ready_callback: function(){
+
+            }
+        });
+
+
+        // using play for non preloaded sound
+        // will force loading process first
+        // and only when playback
+        ion.sound.play("metal_plate_2");
+
         var events = $('#events');
         /* Formatting function for row details - modify as you need */
         function format ( order ) {
@@ -105,7 +145,7 @@ if ( !is_user_logged_in() ) {
                 "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
             },
             "ajax":{
-                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos",
+                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos_dev",
                 "dataSrc": ""
             },
             "iDisplayLength": -1,
@@ -151,6 +191,13 @@ if ( !is_user_logged_in() ) {
             "order": [[1, 'desc']]
         } );
         table
+            .on('xhr.dt', function ( e, settings, json, xhr ) {
+                /*for ( var i=0, ien=json.aaData.length ; i<ien ; i++ ) {
+                    json.aaData[i].sum = json.aaData[i].one + json.aaData[i].two;
+                }*/
+                console.log(xhr);
+                // Note no return - manipulate the data directly in the JSON object.
+            } )
             .on( 'select', function ( e, dt, type, indexes ) {
                 rowDataSelected = table.rows( indexes ).data().toArray()[0];
                 //events.prepend( '<div><b>'+type+' selection</b> - '+JSON.stringify( rowData )+'</div>' );
@@ -206,8 +253,17 @@ if ( !is_user_logged_in() ) {
             }
         } );
         setInterval( function () {
-            table.ajax.reload();
-        }, 120000 );
+            table.ajax.reload(function(data){
+                /*var notification = new Notification('Notification title', {
+                    icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
+                    body: "Hey there! You've been notified!",
+                });*/
+            });
+
+            /*notification.onclick = function () {
+                window.open("http://drinkapp.pe/reader/");
+            };*/
+        }, 120000 ); //120000
 
     } );
 </script>
