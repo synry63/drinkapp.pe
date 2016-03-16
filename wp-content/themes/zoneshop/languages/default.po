@@ -1,0 +1,3032 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZoneShop\n"
+"POT-Creation-Date: 2015-06-01 11:17+0700\n"
+"PO-Revision-Date: 2015-06-01 11:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: ThimPress <admin@thimpress.com>\n"
+"Language: EG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__;_n_noop;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ...\themes\zoneshop\n"
+
+#: ...\themes\zoneshop/404.php:11
+msgid "The page you requested was not found, and we have a fine quess why"
+msgstr ""
+
+#: ...\themes\zoneshop/404.php:12
+msgid ""
+"If you typed the URL directly, please make sure the spelling is correct.<br/"
+"> If you clicked on link to get here, the link is outdated."
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:26
+#: ...\themes\zoneshop/inc/template-tags.php:181
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:29
+#: ...\themes\zoneshop/inc/template-tags.php:187
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:32
+#: ...\themes\zoneshop/inc/template-tags.php:185
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:35
+#: ...\themes\zoneshop/inc/template-tags.php:183
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:37
+#: ...\themes\zoneshop/search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:39
+msgid "404"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:41
+msgid "Asides"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:44
+msgid "Galleries"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:47
+msgid "Images"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:50
+msgid "Videos"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:53
+msgid "Quotes"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:56
+msgid "Links"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:59
+msgid "Statuses"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:62
+msgid "Audios"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:65
+msgid "Chats"
+msgstr ""
+
+#: ...\themes\zoneshop/archive.php:67
+#: ...\themes\zoneshop/inc/custom-functions.php:204
+#: ...\themes\zoneshop/inc/template-tags.php:213
+msgid "Archives"
+msgstr ""
+
+#: ...\themes\zoneshop/comments.php:25
+#: ...\themes\zoneshop/comments.php:28
+msgid " comment"
+msgstr ""
+
+#: ...\themes\zoneshop/comments.php:30
+msgid " comments"
+msgstr ""
+
+#: ...\themes\zoneshop/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ...\themes\zoneshop/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ...\themes\zoneshop/comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: ...\themes\zoneshop/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ...\themes\zoneshop/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ...\themes\zoneshop/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ...\themes\zoneshop/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ...\themes\zoneshop/content-page.php:18
+#: ...\themes\zoneshop/content-single.php:17
+msgid "Pages:"
+msgstr ""
+
+#: ...\themes\zoneshop/content-page.php:25
+#: ...\themes\zoneshop/inc/custom-functions.php:300
+msgid "Edit"
+msgstr ""
+
+#: ...\themes\zoneshop/content.php:77
+msgid "Read more..."
+msgstr ""
+
+#: ...\themes\zoneshop/footer.php:70
+#: ...\themes\zoneshop/page-templates/homepage_02.php:166
+msgid "Go To Top"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:86
+msgid "Sidebar"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:97
+msgid "Drawer Top"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:105
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:5
+msgid "Toolbar"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:115
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:5
+msgid "Offcanvas Sidebar"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:126
+msgid "Header Left"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:136
+msgid "Header Right"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:146
+msgid "Menu Right"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:155
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-options.php:4
+msgid "Footer"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:165
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-bottom.php:3
+msgid "Footer Bottom"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:175
+msgid "Copyright"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:184
+msgid "Sidebar Shop"
+msgstr ""
+
+#: ...\themes\zoneshop/functions.php:239
+msgid "Thim Widget"
+msgstr ""
+
+#: ...\themes\zoneshop/index.php:43
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:998
+#: ...\themes\zoneshop/inc/custom-functions.php:198
+msgid "Home"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:303
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:115
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:304
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:116
+msgid "Install Plugins"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:305
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:117
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:306
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:119
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:308
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:120
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:313
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:122
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:318
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:323
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:132
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:333
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:338
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:126
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:343
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:128
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:353
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:136
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:358
+msgid "Begin updating plugin"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:363
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:368
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:138
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:369
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:370
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2989
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:139
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:371
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2810
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:373
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:374
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:375
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:376
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:494
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2177
+msgid "Required"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2180
+msgid "Recommended"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2197
+msgid "WordPress Repository"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2201
+msgid "External Source"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2205
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2224
+msgid "Not Installed"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2228
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2230
+msgid "Active"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2236
+msgid "Required Update not Available"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2239
+msgid "Requires Update"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2242
+msgid "Update recommended"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2302
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2305
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2308
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2402
+msgid "Installed version:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2410
+msgid "Minimum required version:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2422
+msgid "Available version:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2446
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2462
+msgid "Plugin"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2463
+msgid "Source"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2464
+msgid "Type"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2468
+msgid "Version"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2472
+msgid "Status"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2599
+msgid "Install"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2605
+msgid "Update"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2608
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:147
+msgid "Activate"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2667
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2669
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:2988
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3326
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3330
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3331
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3335
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3336
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3337
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3338
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3342
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3344
+msgid "All installations have been completed."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tgm-plugin-activation.php:3345
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:211
+msgid "Help"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:228
+msgid "Please refresh this page to start using this widget."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:255
+msgid "Are you sure?"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:272
+#, php-format
+msgid ""
+"This query returns <a href=\"#\" class=\"preview-query-posts\">%s posts</a>."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:278
+msgid "Select Posts"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:689
+msgid "Optional"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:815
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:861
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:832
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:900
+msgid "Choose Media"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:833
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:901
+msgid "Set Media"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:852
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:957
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:584
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:631
+msgid "Remove"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:925
+msgid "Build Posts Query"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:956
+msgid "Item"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:992
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:596
+msgid "Add"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/class-tp-widgets.php:1885
+msgid "Unknown Field"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:51
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:84
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:92
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:52
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:97
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:103
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:301
+#: ...\themes\zoneshop/framework/libs/import/parsers.php:521
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import-class.php:37
+#, php-format
+msgid "Update Option \"%d\" error"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import-class.php:264
+msgid "Success! Options file imported"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import-class.php:266
+msgid "Invalid options file"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:60
+msgid "Cannot get demo data package from %"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:77
+msgid "Cannot create directory \"%\""
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:88
+#, php-format
+msgid "Cannot store file \"%s\""
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:99
+#, php-format
+msgid "Download demo data package success \"%s\""
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:120
+#, php-format
+msgid "Extract demo data package to \"%s\" success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:131
+msgid "There was an error unzipping demo data file."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:242
+msgid "Import woo setting success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:286
+msgid "Error on importing menus"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:297
+msgid "Import menus success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:316
+msgid "Error on importing widgets"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:327
+msgid "Importing widgets success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:344
+msgid "Error on import setting"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:356
+msgid "Import setting success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:372
+msgid "Import slide error"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:383
+msgid "Slide is not imported"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/tp-import.php:406
+msgid "Import demo data success"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:369
+msgid "Assign Authors"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:370
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:382
+msgid "Import Attachments"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:385
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:390
+msgid "Submit"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:417
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:420
+msgid "as a new user:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:428
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:430
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:432
+msgid "- Select -"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1064
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1072
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1168
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1193
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1236
+msgid "Invalid file type"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1285
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1292
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1300
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1306
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1313
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1477
+msgid "Import WordPress"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/import/wordpress-importer.php:1818
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:493
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:603
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:31
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:28
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:92
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:83
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:76
+msgid "Column"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:604
+msgid "(Mega Menu)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:615
+msgid "Move up"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:626
+msgid "Move down"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:628
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:630
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:639
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:60
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:60
+msgid "URL"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:647
+msgid "Navigation Label"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:648
+msgid ""
+"Mega Menu Column Title <span class=\"tp_supersmall\">(if you dont want to "
+"display a title just enter a single dash: \"-\" )</span>"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:656
+msgid "Title Attribute"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:663
+msgid "link Target"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:665
+msgid "Same window or tab"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:666
+msgid "New window or tab"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:672
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:679
+msgid "link Relationship (XFN)"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:686
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:108
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:56
+msgid "Description"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:703
+msgid "Click to browse icon"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:705
+msgid "Browse Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:749
+msgid "Standard Dropdown"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:750
+msgid "Multicolumn Dropdown"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:751
+msgid "Widget area"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:767
+msgid "Select Widget Area"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:808
+msgid "Drop To Left Side"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:809
+msgid "Drop To Right Side"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:810
+msgid "Drop To Center"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:855
+msgid "Browse Image"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/megamenu/class-megamenu.php:945
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:10
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:77
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:10
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:77
+msgid "Select or Upload Image"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:23
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:23
+msgid "Video URL or Embeded Code"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:36
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:36
+msgid "Quote"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:42
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:42
+msgid "Author"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:48
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:48
+msgid "Author Url"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:65
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:65
+msgid "Text"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/post-format.php:90
+#: ...\themes\zoneshop/framework/libs/post-format/meta-box/post-format.php:90
+msgid "Audio URL or Embeded Code"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:15
+msgid "Custom Featured Title Area"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:20
+msgid "Using Custom Featured Title Area?"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:31
+msgid "Custom Title and Subtitle"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:37
+msgid "Hide Title and Subtitle"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:45
+msgid "Custom Title"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:48
+msgid "Leave empty to use post title"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:53
+msgid "Subtitle"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:63
+msgid "Check this box to hide/unhide Breadcrumbs"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:68
+msgid "Custom Heading Background"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:83
+msgid "Background"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:90
+msgid "Text Color Featured Title"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:97
+msgid "Height Custom Heading "
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:100
+msgid "Use a number custom heading (px) default is 100. ex: 100"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:108
+msgid "Custom Layout"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:113
+msgid "Use Custom Layout?"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/meta-box/setting.php:142
+msgid "(* only be used with <b> content boxed </b> layout )"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:274
+msgid "previous"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:276
+msgid "play"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:277
+msgid "pause"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:278
+msgid "next"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:279
+msgid "stop"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:281
+msgid "mute"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:284
+msgid "unmute"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:287
+msgid "max volume"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:304
+msgid "shuffle"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:307
+msgid "shuffle off"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:310
+msgid "repeat"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:313
+msgid "repeat off"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/post-format/post-formats.php:318
+#, php-format
+msgid ""
+"<span>Update Required</span> To play the media you will need to either "
+"update your browser to a recent version or update your <a href=\"%s\" target="
+"\"_blank\">Flash plugin</a>."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:251
+msgid "Delete this image"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:251
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:897
+msgid "Delete"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:361
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:893
+msgid "Uploaded files"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:904
+msgid "Upload new files"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:910
+msgid "Add more files"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/tax-meta-class/Tax-meta-class.php:966
+msgid "Select a color"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-admin-panel.php:297
+msgid "Settings saved."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-admin-panel.php:299
+msgid "Settings reset to default."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-meta-box.php:37
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-theme-customizer-section.php:32
+#: ...\themes\zoneshop/framework/libs/titan-framework/thim-class-customizer-section.php:39
+#: ...\themes\zoneshop/framework/libs/titan-framework/thim-class-meta-box.php:36
+msgid "More Options"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:129
+msgid "Your license is valid and active."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:133
+msgid "Your license is invalid."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:148
+msgid ""
+"Your license is valid but inactive. Click the button above to activate it."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:153
+msgid ""
+"The remote server did not return a valid response. You can retry by hitting "
+"the &laquo;Save&raquo; button again."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-edd-license.php:159
+msgid "Entering your license key is mandatory to get the product updates."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-enable.php:21
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-enable.php:96
+msgid "Enabled"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-enable.php:24
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-enable.php:99
+msgid "Disabled"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-import.php:38
+msgid "Import"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-import.php:62
+msgid "Memory limit < 64M can be make importing errors"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-import.php:80
+msgid "Execution Time < 60 can be make importing errors"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-import.php:93
+msgid "Select demo data"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-save.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-save.php:24
+msgid "Reset to Defaults"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-save.php:27
+msgid "Are you sure you want to reset ALL options to their default values?"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-select-categories.php:37
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-select-categories.php:104
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-select-pages.php:30
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-select-posts.php:38
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-select-posts.php:106
+msgid "Select"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-upload-advanced.php:248
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-upload.php:202
+msgid "Select Image"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-upload-advanced.php:251
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option-upload.php:205
+msgid "Use image"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-option.php:42
+#, php-format
+msgid "Option type or extended class %s does not exist."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-framework.php:90
+#, php-format
+msgid "All option IDs must be unique. The id %s has been used multiple times."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-framework.php:364
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-framework.php:410
+#, php-format
+msgid ""
+"Wrong usage of %s, this should be called inside a hook or from within a "
+"theme file."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-tracking.php:70
+msgid ""
+"Help us make Titan Framework better by enabling your site to periodically "
+"send us tracking data. This is so we can know where and how Titan is being "
+"used."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-tracking.php:71
+msgid "Help us and track"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/class-titan-tracking.php:72
+msgid "Don't track"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework-checker.php:70
+msgid "Titan Framework needs to be installed."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework-checker.php:73
+msgid "Click here to search for the plugin."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework-checker.php:85
+msgid "Titan Framework needs to be activated."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework-checker.php:88
+msgid "Click here to go to the plugins page and activate it."
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework.php:159
+msgid "Documentation"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework.php:161
+msgid "GitHub Repo"
+msgstr ""
+
+#: ...\themes\zoneshop/framework/libs/titan-framework/titan-framework.php:163
+msgid "Issue Tracker"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/custom-functions.php:206
+msgid "Search Result"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/custom-functions.php:208
+msgid "404 Not Found"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/custom-functions.php:289
+#, php-format
+msgid "<span class=\"author-name\">%s</span>"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/custom-functions.php:291
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/tax-meta.php:105
+msgid "Custom Layout "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/tax-meta.php:110
+msgid "Background Color "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/tax-meta.php:111
+msgid "Background Image "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/tax-meta.php:121
+msgid "Or Upload Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:42
+msgid "<i class=\"fa  fa-caret-left\"></i>"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:43
+msgid "<i class=\"fa  fa-caret-right\"></i>"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:74
+msgid "Post navigation"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:155
+msgid "Latest update: "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:177
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:179
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:207
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:211
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:296
+msgid ", "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/template-tags.php:298
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:124
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:130
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:134
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:137
+msgid "Activate installed plugin"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/plugins-require.php:140
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/display-archive.php:79
+msgid "<a href=\""
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:3
+msgid "Copyright Options"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:9
+msgid "Back To Top"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:17
+msgid "Border Top Copyright Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:24
+msgid "Background Copyright Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:32
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:28
+msgid "Text Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-copyright.php:40
+msgid "Copyright Text"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-options.php:28
+msgid "Footer Title Font"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-options.php:48
+msgid "Footer Text Font"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/footer-options.php:78
+msgid "Show border column"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:5
+msgid "Sticky Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:11
+msgid "Sticky Menu on scroll"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:12
+msgid "Check to enable a fixed header when scrolling, uncheck to disable."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:18
+msgid "When sticky header appear?"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:20
+msgid "Auto caculate"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-headeroptions.php:21
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:46
+msgid "Custom"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-layout.php:4
+msgid "Header Layout"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-layout.php:10
+msgid "Header Width"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-layout.php:14
+msgid "Boxed"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-layout.php:15
+msgid "Wide"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-layout.php:20
+msgid "Margin Bottom"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:6
+msgid "Main Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:13
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:13
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:20
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:13
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:35
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:28
+msgid "Background color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:22
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:22
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:30
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:43
+msgid "Text color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:23
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:23
+msgid "Pick a text color for main menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:29
+msgid "Border Top Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:30
+msgid "Pick a border top color for main menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:36
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:29
+msgid "Text Hover color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:37
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:30
+msgid "Pick a text hover color for main menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mainmenu.php:45
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:38
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:26
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:56
+msgid "Font Size"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-mobile.php:6
+msgid "Mobile Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:12
+msgid "Show or Hide"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:36
+msgid "Link Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-rightdrawer.php:44
+msgid "Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:6
+msgid "Sub Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:23
+msgid "Color Border of Sub Menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:31
+msgid "Pick a text color for sub menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:38
+msgid "Text color hover"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-submenu.php:39
+msgid "Pick a text color hover for sub menu"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:11
+msgid "Show or Hide Toolbar"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topbar.php:51
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:77
+msgid "Link color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:4
+msgid "Drawer"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:10
+msgid "Show or Hide Drawer"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:25
+msgid "Drawer Background color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:33
+msgid "Drawer Text color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:41
+msgid "Drawer Columns"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:51
+msgid "Drawer Style"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header-topdrawer.php:70
+msgid "Drawer Open or Close"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/header.php:52
+msgid "Header"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:6
+msgid "Logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:11
+msgid "Header Logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:14
+msgid "Upload your logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:19
+msgid "Sticky Logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:22
+msgid "Upload your sticky logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:26
+msgid "Width Logo"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:37
+msgid "Favicon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/logo.php:40
+msgid "Upload your favicon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/styling-color.php:48
+msgid "border bottom size"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:10
+msgid "Body"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:15
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:44
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:68
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:97
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:126
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:155
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:184
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:213
+msgid "Select Font"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:37
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:17
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:21
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:48
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:35
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:24
+#: ...\themes\zoneshop/inc/widgets/social/social.php:19
+msgid "Title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:63
+msgid "H1"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:91
+msgid "H2"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:120
+msgid "H3"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:149
+msgid "H4"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:178
+msgid "H5"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/typography.php:207
+msgid "H6"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/woocommerce-sharing.php:3
+msgid "Sharing"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/woocommerce-sharing.php:10
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:434
+msgid "Facebook"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/woocommerce-sharing.php:18
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:437
+msgid "Twitter"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/woocommerce-sharing.php:27
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:443
+msgid "Google Plus"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/admin/customizer-sections/woocommerce-sharing.php:35
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:440
+msgid "Pinterest"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/empty-space/empty-space.php:12
+msgid "Thim: Empty Space"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/empty-space/empty-space.php:14
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:18
+msgid "Empty space."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/empty-space/empty-space.php:23
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:34
+msgid "Height"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/empty-space/empty-space.php:32
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:100
+msgid "Extract class name"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/empty-space/empty-space.php:33
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:101
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:12
+msgid "Thim: Gallery Images"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:14
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:11
+msgid "Add heading text"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:22
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:19
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:26
+msgid "Image"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:23
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:20
+msgid "Select image from media library."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:28
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:25
+msgid "Image size"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:29
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:33
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:31
+msgid "Image Link"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:34
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:32
+msgid "Enter URL if you want this image to have a link."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:38
+msgid "Number Image Per View"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:42
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:36
+msgid "Link Target"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:44
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:38
+msgid "Same window"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:45
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:39
+msgid "New window"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:51
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:46
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:30
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:44
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:115
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:44
+msgid "CSS Animation"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:53
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:48
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:32
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:46
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:46
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:88
+msgid "No"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:54
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:49
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:33
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:47
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:47
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:91
+msgid "Top to bottom"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:55
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:50
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:34
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:48
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:48
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:92
+msgid "Bottom to top"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:56
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:51
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:35
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:49
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:49
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:89
+msgid "Left to right"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:57
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:52
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:36
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:50
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:50
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:90
+msgid "Right to left"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:58
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:53
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:37
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:51
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:51
+msgid "Appear from center"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:63
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:33
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:67
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:110
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:123
+msgid "Type Title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:65
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:35
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:69
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:112
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:125
+msgid "Border"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/gallery-images/gallery-images.php:66
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:36
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:70
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:113
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:126
+msgid "No border left"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:7
+msgid "Thim: Google Maps"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:9
+msgid "A Google Maps widget."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:22
+msgid "Map center"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:23
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:27
+msgid "Settings"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:29
+msgid "Set map display options."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:38
+msgid "Zoom level"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:39
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:50
+msgid "Scroll to zoom"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:51
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:57
+msgid "Draggable"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:58
+msgid "Allow dragging the map to move it around."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:64
+msgid "Markers"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:66
+msgid "Use markers to identify points of interest on the map."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:71
+msgid "Show marker at map center"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:76
+msgid "Marker Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:77
+msgid "Replaces the default map marker with your own image."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:87
+msgid "Marker positions"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:88
+msgid "Marker"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/google-map/google-map.php:98
+msgid "Place"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:7
+msgid "Thim: Heading"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:9
+msgid "Show heading"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:17
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:17
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:18
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:17
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:18
+msgid "Heading title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:18
+msgid "Heading "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/heading/heading.php:23
+msgid "Heading color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:6
+msgid "Thim: Icon Box"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:8
+msgid "Add icon box"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:16
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:19
+msgid "Title Options"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:23
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:26
+msgid "Provide the title for this icon box."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:27
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:30
+msgid "Color Title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:31
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:34
+msgid "Size Heading"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:33
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:36
+msgid "h3"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:34
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:37
+msgid "h2"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:35
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:38
+msgid "h4"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:36
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:39
+msgid "h5"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:37
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:40
+msgid "h6"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:39
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:42
+msgid "Select size heading."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:43
+msgid "Font Heading"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:45
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:101
+msgid "Default"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:48
+msgid "Select Font heading."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:59
+msgid "custom font size"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:67
+msgid "Custom Font Weight"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:69
+msgid "Normal"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:70
+msgid "Bold"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:71
+msgid "100"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:72
+msgid "200"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:73
+msgid "300"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:74
+msgid "400"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:75
+msgid "500"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:76
+msgid "600"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:77
+msgid "700"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:78
+msgid "800"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:79
+msgid "900"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:81
+msgid "Select Custom Font Weight"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:89
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:47
+msgid "Margin Bottom Value"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:113
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:61
+msgid "Add description"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:115
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:63
+msgid "Provide the description for this icon box."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:120
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:80
+msgid "Color Desc"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:137
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:143
+msgid "Select Icon:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:144
+msgid "Select the icon from the list."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:151
+msgid "Icon Font Size "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:154
+msgid "Select the icon font size."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:165
+msgid "Width Box Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:171
+msgid "Color Options"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:178
+msgid "Select Icon Color:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:179
+msgid "Select the icon color."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:185
+msgid "Icon Background Color:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:186
+msgid "Select the color for icon background."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:193
+msgid "Select Background Color Widget:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:194
+msgid "Select the Background color for widget."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:198
+msgid "Hover Icon Color:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:199
+msgid "Select the color hover for icon."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:205
+msgid "Hover Icon Background Color:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:206
+msgid "Select the color hover for icon background header."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:211
+msgid "Border Color:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:212
+msgid "Select the color for border"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:219
+msgid "Layout Options"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:225
+msgid "Icon Shape"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:227
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:119
+msgid "None"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:228
+msgid "Circle"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:235
+msgid "Box Style:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:243
+msgid ""
+"Select icon position. Icon box style will be changed according to the icon "
+"position."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:248
+msgid "Text Align :"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:260
+msgid "Padding Box Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/icon-box/icon-box.php:261
+msgid "input padding of widget (top right bottom left) ex: 25px 50px 25px 50px"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:9
+msgid "Thim: Our Team"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:19
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:23
+msgid "Number Posts"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:24
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:99
+msgid "Layout"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:26
+msgid "List-01"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:33
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:32
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:51
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:95
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:86
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:79
+msgid "2"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:34
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:33
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:52
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:96
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:87
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:80
+msgid "3"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:35
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:24
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:34
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:53
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:55
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:97
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:88
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:81
+msgid "4"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:36
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:98
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:82
+msgid "5"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:41
+msgid "Category Our Team ID"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/our-team/our-team.php:42
+msgid "Enter category Our Team ID Example: 1, 2"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:7
+msgid "Thim: Posts Display"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:9
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:9
+msgid "Show Post"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:31
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:50
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:94
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:85
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:78
+msgid "1"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:39
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:26
+msgid "Content Length Excerpt Words"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:40
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:27
+msgid "15"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:44
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:54
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:31
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:41
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:72
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:35
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:63
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:29
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:88
+msgid "Order by"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:46
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:33
+msgid "Popular"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:47
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:34
+msgid "Recent"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:49
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:36
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:76
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:67
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:33
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:92
+msgid "Random"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:56
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:43
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:85
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:50
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:76
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:42
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:101
+msgid "ASC"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:57
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:44
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:86
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:51
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:77
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:43
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:102
+msgid "DESC"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:63
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:50
+msgid "Show Read More"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:69
+msgid "Show Author"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:73
+msgid "Select Layout"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:75
+msgid "Layout 01"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/posts-display.php:76
+msgid "Layout 02"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/tpl/base.php:72
+#: ...\themes\zoneshop/inc/widgets/posts-display/tpl/base.php:85
+#: ...\themes\zoneshop/inc/widgets/posts-display/tpl/base.php:94
+#: ...\themes\zoneshop/inc/widgets/posts-display/tpl/base.php:120
+#: ...\themes\zoneshop/inc/widgets/recent-post/tpl/base.php:71
+#: ...\themes\zoneshop/inc/widgets/recent-post/tpl/base.php:84
+#: ...\themes\zoneshop/inc/widgets/recent-post/tpl/base.php:93
+msgid "Read More"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/posts-display/tpl/base.php:107
+msgid "by "
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:9
+msgid "Thim: Progress Bar"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:11
+msgid "Progress Bar"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:19
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:18
+msgid "Value"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:20
+msgid "90|Development,70|Design"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:21
+msgid ""
+"Input graph values, titles here. Divide values with linebreaks (Enter). "
+"Example: 90|Development,70|Design"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-bar/progress-bar.php:25
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:28
+msgid "Units"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:8
+msgid "Thim: Progress Circle"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:10
+msgid "Progress Circle"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:19
+msgid "Input graph value here. Choose range between 0 and 100."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:23
+msgid "Label"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:24
+msgid "Input integer value for label. If empty \"Pie value\" will be used."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:34
+msgid "Width Widget"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:35
+msgid "default (150)"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/progress-circle/progress-circle.php:39
+msgid "Color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:7
+msgid "Thim: Display Post Slider"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/recent-post/recent-post.php:22
+msgid "Number Post"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:9
+msgid "Sale-Off"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:11
+msgid "A simple call to action widget with massive power."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:67
+msgid "Select location of content"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:69
+msgid "Top"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:70
+msgid "Center"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:75
+msgid "Border text"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:84
+msgid "padding desc content off box"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:85
+msgid "input value padding of desc box ex:30px"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:91
+msgid "Custom Image Box Sale Off"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:97
+msgid "Upload Image background:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:98
+msgid "Upload the custom image background icon."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:103
+msgid "img margin top"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:104
+msgid "input margin top of image ex:30px"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:110
+msgid "padding sale off box"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:111
+msgid "input value padding of sale off box ex:30px"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:117
+msgid "Zoom in image"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:118
+msgid "Zoom out and zoom in image"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:124
+msgid "Background Color Box:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:126
+msgid "Select background  color for Box sale"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:131
+msgid "Link Icon Box"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:137
+msgid "Add Link"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:138
+msgid "Provide the link that will be applied to this icon box."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:143
+msgid "Read More Text"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:145
+msgid "Customize the read more text."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:149
+msgid "Color Read More Text:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:151
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:158
+msgid "Select whether to use text color for Read More Text or default."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:156
+msgid "Color hover Read More Text:"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:163
+msgid "Read More Margin top"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/sale-off/sale-off.php:165
+msgid "Customize the read more margin top ex:30px."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/search/search.php:24
+msgid "SEARCH"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:16
+msgid "Thim: Shop by category"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:43
+msgid "Number category"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:48
+msgid "number column"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/shop-by-cat/shop-by-cat.php:63
+msgid "Color button read more"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:9
+msgid "Thim: Single Images"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/single-images/single-images.php:26
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\". "
+"Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:9
+msgid "Thim: Social Links"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:11
+msgid "Social Links"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:23
+msgid "Facebook Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:27
+msgid "Twitter Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:31
+msgid "Google Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:35
+msgid "Instagram Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:39
+msgid "Pinterest Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:43
+msgid "Youtube Url"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:47
+#: ...\themes\zoneshop/inc/widgets/social/social.php:56
+msgid "Select Icon Style"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/social/social.php:65
+msgid "Background Color :"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:22
+msgid "Thim: Tab"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:24
+msgid "Add tab"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:32
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:33
+msgid "Tab"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:37
+msgid "Tab Title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:43
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:34
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:18
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:31
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:300
+msgid "Show"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:46
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:37
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:21
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:34
+msgid "Featured Products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:47
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:38
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:22
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:35
+msgid "On-sale Products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:48
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:39
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:23
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:36
+msgid "Best-Sellers Products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:59
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:50
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:48
+#: ...\themes\zoneshop/inc/widgets/wc-sub-category/wc-sub-category.php:25
+msgid "Select Category"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:74
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:65
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:31
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:90
+msgid "Date"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:75
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:66
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:32
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:91
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:77
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:68
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:34
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:93
+msgid "Sales"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/tab/tab.php:104
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:94
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:49
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:109
+msgid "Number Product"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:13
+msgid "Thim: Testimonials"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:15
+msgid "Show testimonials"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:26
+msgid "Number posts view"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:37
+msgid "random"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:38
+msgid "comment"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:39
+msgid "date"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:40
+msgid "title"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:48
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:99
+msgid "Order"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:59
+msgid "Config"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:64
+msgid "Content color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:70
+msgid "Author color"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:86
+msgid "Css animation"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/testimonials/testimonials.php:93
+msgid "Appear form center"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:16
+msgid "Thim Product"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:18
+msgid "Show product"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:27
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:26
+msgid "Title Widget"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:102
+msgid "Special"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:103
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:207
+msgid "List"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:109
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:54
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:114
+msgid "Hide free products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product/wc-product.php:114
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:59
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:119
+msgid "Show hidden products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:7
+msgid "Thim Product Showcase"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:9
+msgid "Show product Showcase"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-showcase/wc-product-showcase.php:20
+msgid "All Products"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:15
+msgid "Thim Product Slider"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:17
+msgid "Show product Slider"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:37
+msgid "Category"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:60
+msgid "Insert a image"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:66
+msgid "Link Feature Images"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-product-slider/wc-product-slider.php:70
+msgid "Show image"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-sub-category/wc-sub-category.php:14
+msgid "Thim: Sub Category product"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-sub-category/wc-sub-category.php:16
+msgid "show sub category"
+msgstr ""
+
+#: ...\themes\zoneshop/inc/widgets/wc-sub-category/wc-sub-category.php:26
+msgid "show category lever 1"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/content-product.php:61
+#: ...\themes\zoneshop/woocommerce/content-widget/content-product-slider.php:48
+#: ...\themes\zoneshop/woocommerce/content-widget/content-product.php:65
+msgid "Quick View"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:206
+msgid "Grid"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:219
+msgid "Product Compare ("
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:336
+#: ...\themes\zoneshop/woocommerce/loop/add-to-cart-quick-view.php:25
+msgid "Detail"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:390
+msgid "item"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:473
+msgid "Product New"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:481
+msgid "Product Hot"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/global/quantity-input.php:12
+msgid "Q.ty:"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/loop/add-to-cart.php:47
+msgid "Compare"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/loop/sale-flash.php:20
+msgid "Sale!"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/loop/sale-flash.php:27
+msgid "New"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/loop/sale-flash.php:30
+msgid "Hot"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/meta.php:23
+msgid "Product Code:"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/meta.php:23
+msgid "N/A"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/meta.php:27
+msgid "Category:"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/rating.php:25
+msgid "out of 5"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/rating.php:28
+msgid " Reviews"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/rating.php:28
+msgid "<span itemprop=\"ratingCount\" class=\"count\">("
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/related.php:39
+msgid "Related Products"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/title-detail.php:12
+msgid "Product Details"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/woocommerce.php:388
+#: ...\themes\zoneshop/woocommerce/widgets/class-wc-widget-cart.php:45
+msgid "ITEM(S)"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/widgets/class-wc-widget-cart.php:95
+msgid "Title:"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/widgets/class-wc-widget-cart.php:101
+msgid "Show Only Icon"
+msgstr ""
+
+#: ...\themes\zoneshop/woocommerce/widgets/class-wc-widget-cart.php:106
+msgid "Hide if cart is empty"
+msgstr ""

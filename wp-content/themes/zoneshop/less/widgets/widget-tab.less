@@ -1,0 +1,86 @@
+.tab-heading {
+	margin-bottom: 0px;
+	border-bottom: 2px solid @border-color;
+	li {
+		margin-right: 5px;
+		list-style:   none;
+		display:      inline-block;
+	}
+	a {
+		cursor:     pointer;
+		display:    block;
+		padding:    20px;
+		background: @white;
+		span {
+			background-color: @white !important;
+		}
+		.transi;
+
+	}
+	li.active {
+		a {
+			span {
+				color: @white !important;
+			}
+		}
+	}
+}
+
+.tab-heading.no_boder_title {
+	border:       1px solid @border-color !important;
+	margin-right: 1px;
+	li {
+		a {
+			span {
+				&:before {
+					width: 0 !important;
+				}
+			}
+		}
+	}
+	li.active {
+		a {
+			span {
+				background-color: #F7DFC8 !important;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.product {
+		.wrapper {
+			.row {
+				.col-md-4 {
+					height: 22px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.thim-widget-tab {
+		.tab-heading {
+			li {
+				span {
+					padding: 18px 15px !important;
+				}
+			}
+		}
+	}
+
+	.tab-content {
+		ul.product-grid {
+			li {
+				width: 100% !important;
+			}
+		}
+	}
+}
+
+.tab-content {
+	ul {
+		margin-bottom: 0 !important;
+	}
+}

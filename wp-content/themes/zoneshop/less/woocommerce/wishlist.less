@@ -1,0 +1,120 @@
+.woocommerce-wishlist {
+	#yith-wcwl-form .wishlist_table {
+		border-radius: 0px;
+		border-right:  none;
+		th, td {
+			border-bottom: none;
+		}
+		.add_to_cart {
+			text-shadow:    0 0 0;
+			box-shadow:     none !important;
+			border-radius:  0 !important;
+			text-transform: uppercase !important;
+ 			color:          @white;
+			border:         none !important;
+			padding:        10px !important;
+			&:hover {
+				background: @bg-color;
+				color:      @text-color;
+			}
+		}
+
+		.product-name a {
+			color:       #111;
+			font-weight: bold;
+		}
+		.product-remove {
+
+		}
+		.product-thumbnail {
+			max-width: 100%;
+			img {
+				width: 120px;
+				height: 120px;
+			}
+		}
+		.product-add-to-cart {
+			.add_to_cart {
+				font-weight: normal;
+				&:hover {
+					background: #f2f2f2;
+					color: #111;
+				}
+			}
+		}
+	}
+}
+
+.woocommerce-wishlist {
+	#main {
+		.entry-content {
+			padding: 15px;
+		}
+		header {
+			display: none;
+		}
+		.wishlist-title {
+			h2 {
+				margin-top: 0;
+			}
+		}
+		table.wishlist_table {
+			.col-md-2 {
+				.box-compare {
+					display: none;
+				}
+			}
+			.col-md-8 {
+				-webkit-transform: translate(0, 150%);
+				-moz-transform:    translate(0, 150%);
+				-ms-transform: translate(0, 150%);
+				-o-transform:      translate(0, 150%);
+				transition:        translate(0, 150%);
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.woocommerce-wishlist {
+		#main {
+			.entry-content {
+				padding: 15px;
+			}
+			header {
+				display: none;
+			}
+			.wishlist-title {
+				h2 {
+					margin-top: 0;
+				}
+			}
+			table.wishlist_table {
+				.col-md-2 {
+					.box-compare {
+						display: none;
+					}
+				}
+				.col-md-8 {
+					-webkit-transform: translate(0, 0%);
+					-moz-transform:    translate(0, 0%);
+					-ms-transform:     translate(0, 0%);
+					-o-transform:      translate(0, 0%);
+					transition:        translate(0, 0%);
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.woocommerce {
+		table.wishlist_table {
+			tbody {
+				td {
+					padding: 16px 15px !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+.box-heading, .tab-heading {
+	background:    transparent;
+ }
+
+.tab-heading {
+	.box-heading {
+		border-bottom: none;
+	}
+}
+
+.thim-widget-heading {
+	.no_boder_title {
+		.box-heading {
+			border: 1px solid @border-color;
+			span {
+				&:before {
+					width: 0 !important;
+				}
+			}
+		}
+	}
+}

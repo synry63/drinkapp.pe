@@ -1,0 +1,138 @@
+/* Progress bar
+---------------------------------------------------------- */
+.sc_progress_bar .sc_single_bar {
+	background:    #A9A3A3;
+	position:      relative;
+	margin-bottom: 11.666666666666666px;
+	width:         100%;
+	height:        10px;
+	display:       inline-block;
+	margin-top:    5px;
+}
+
+.sc_progress_bar .sc_label {
+	margin-bottom: 0;
+	display:       inline-block;
+}
+
+.sc_progress_bar .sc_label_units {
+	text-align:   left;
+	padding-left: 5px;
+}
+
+.sc_label_units {
+	display:    inline-block;
+	text-align: right;
+}
+
+.sc_progress_bar .sc_single_bar {
+	margin-bottom: 0;
+}
+
+.sc_progress_bar .sc_single_bar .sc_bar {
+	display:            block;
+	position:           absolute;
+	height:             100%;
+	width:              0%;
+	top:                0;
+	left:               0;
+	transition:         width 1s linear;
+	-moz-transition:    width 1s linear;
+	-webkit-transition: width 1s linear;
+	-o-transition:      width 1s linear;
+	border-radius:      5px;
+}
+
+.sc_progress_bar .sc_single_bar.striped {
+	padding:    15px;
+	background: #EEEEEE;
+	span {
+		background-image:        -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+		background-image:        -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+		background-image:        -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+		background-image:        -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+		background-image:        linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+		-webkit-background-size: 40px 40px;
+		-moz-background-size:    40px 40px;
+		-o-background-size:      40px 40px;
+		background-size:         40px 40px;
+		-webkit-animation:       progress-bar-stripes 2s linear infinite;
+		-moz-animation:          progress-bar-stripes 2s linear infinite;
+		-ms-animation:           progress-bar-stripes 2s linear infinite;
+		-o-animation:            progress-bar-stripes 2s linear infinite;
+		animation:               progress-bar-stripes 2s linear infinite;
+	}
+}
+
+@-webkit-keyframes progress-bar-stripes {
+	from {
+		background-position: 40px 0;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+
+@-moz-keyframes progress-bar-stripes {
+	from {
+		background-position: 40px 0;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+
+@-ms-keyframes progress-bar-stripes {
+	from {
+		background-position: 40px 0;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+
+@-o-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 40px 0;
+	}
+}
+
+@keyframes progress-bar-stripes {
+	from {
+		background-position: 40px 0;
+	}
+	to {
+		background-position: 0 0;
+	}
+}
+
+/////////////// progress-circle
+.progress-circle {
+	text-align: center;
+}
+
+.progress-single-circle {
+	position:      relative;
+	margin:        0 auto;
+	border-radius: 50%;
+	canvas {
+		margin-top:  -3px;
+		margin-left: -3px;
+	}
+	strong {
+		position:    absolute;
+		top:         50%;
+		left:        0;
+		width:       100%;
+		font-size:   30px;
+		font-weight: normal;
+		margin-top:  -10px;
+		i {
+			font-weight: normal;
+		}
+		color:       @white;
+	}
+}

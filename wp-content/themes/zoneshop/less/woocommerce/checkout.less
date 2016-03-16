@@ -1,0 +1,53 @@
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	border:  1px solid #888;
+	padding: 5px 10px !important;
+}
+
+.woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select, .woocommerce form .form-row.woocommerce-validated select {
+	border: 1px solid #888;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+
+	&:hover {
+ 		color:      #111;
+	}
+}
+
+.woocommerce-shipping-fields {
+	#ship-to-different-address {
+		position:     relative;
+		padding-left: 20px;
+		.checkbox {
+			font-size:     24px;
+			font-weight:   400 !important;
+			margin-bottom: 0 !important;
+			margin-top:    0 !important;
+		}
+		.input-checkbox {
+			position: absolute;
+			top:      14px;
+			left:     0px;
+			margin:   0;
+		}
+	}
+}
+
+.woocommerce form.checkout {
+	padding: 15px;
+	input.button.alt {
+		&:hover {
+ 			color:      @white !important;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.woocommerce form.checkout {
+		.col2-set {
+			.col-1, .col-2 {
+				width: 100% !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,280 @@
+.widget_testimonials {
+  margin-top: -15%;
+}
+.owl-buttons i {
+	font-size: 20px;
+}
+.owl-theme .owl-controls .owl-page span {
+  background:transparent !important;
+  margin: -30px 2px !important;
+}
+
+.wg-testimonials {
+  #owl-demo .item {
+    left: 1%;
+  }
+}
+
+.owl-carousel {
+	width: 100%;
+    text-align: center !important;
+
+	.item {
+        display:    block;
+        text-align: center;
+		.item-img {
+			width:                 100px;
+			height:                auto;
+			border-radius:         100%;
+			-webkit-border-radius: 100%;
+			-moz-border-radius:    100%;
+            margin:                0 auto 15px;
+		}
+
+		.item-testimonial {
+			margin-bottom: 10px;
+            padding: 0 21px;
+		}
+
+		.item-writer-name {
+			font-weight:    600;
+			text-transform: uppercase;
+			margin-bottom:  0px;
+			display:        inline;
+		}
+
+		.item-testimonial-information {
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 0px;
+        }
+	}
+
+}
+
+p.item-testimonial:before {
+    font-family: "FontAwesome";
+	content: "\f10d";
+	position: absolute;
+	left: 1%;
+}
+
+#owl-demo .item {
+    text-align:            center;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	padding: 5px 9px;
+}
+
+.owl-theme .owl-buttons i {
+	margin-top: 2px;
+}
+
+/*To move navigation buttons outside use these settings:*/
+
+.owl-theme .owl-controls .owl-buttons div {
+	position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+	top: 90%;
+	float: left;
+	border: 2px solid #111;
+	padding: 3px;
+}
+
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	top: 90%;
+	border: 2px solid #111;
+	padding: 3px;
+}
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content:     ".";
+	display:     block;
+	clear:       both;
+	visibility:  hidden;
+	line-height: 0;
+	height:      0;
+}
+
+.owl-carousel {
+	display:          none;
+	position:         relative;
+	width:            100%;
+	-ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper {
+	display:           none;
+	position:          relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width:    100%;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition:    height 500ms ease-in-out;
+	-ms-transition:     height 500ms ease-in-out;
+	-o-transition:      height 500ms ease-in-out;
+	transition:         height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+	float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+	cursor: pointer;
+}
+
+.owl-controls {
+	-webkit-user-select:         none;
+	-khtml-user-select:          none;
+	-moz-user-select:            none;
+	-ms-user-select:             none;
+	user-select:                 none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	-webkit-transform:           translate3d(0, 0, 0);
+	-moz-transform:              translate3d(0, 0, 0);
+	-ms-transform:               translate3d(0, 0, 0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls {
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+	display:               inline-block;
+	zoom:                  1;
+	*display:              inline; /*IE7 life-saver */
+	margin:                5px;
+	padding:               3px 10px;
+	font-size:             12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius:    30px;
+	border-radius:         30px;
+	filter:                Alpha(Opacity=50); /*IE7 fix*/
+	opacity:               0.5;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	filter:          Alpha(Opacity=100); /*IE7 fix*/
+	opacity:         1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+	display:  inline-block;
+	zoom:     1;
+	*display: inline; /*IE7 life-saver */
+}
+
+.owl-theme .owl-controls .owl-page span {
+	display:               block;
+	width:                 12px;
+	height:                12px;
+	margin:                5px 7px;
+	filter:                Alpha(Opacity=50); /*IE7 fix*/
+	opacity:               0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius:    20px;
+	border-radius:         20px;
+	background:            #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+	filter:  Alpha(Opacity=100); /*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+	height:                auto;
+	width:                 auto;
+	color:                 #FFF;
+	padding:               2px 10px;
+	font-size:             12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius:    30px;
+	border-radius:         30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+	min-height: 150px;
+}
+
+.item_testimonial {
+	text-align: center;
+
+	.avatar-testimonial {
+		width:         90px;
+		height:        90px;
+		border-radius: 50%;
+		overflow:      hidden;
+		margin:        15px auto;
+		background:    #EEE;
+	}
+	.testimonial_content {
+		font-size: 120%;
+		&:before {
+			content:      '"';
+			margin-right: 5px;
+		}
+		&:after {
+			content:      '"';
+			margin-right: 0px;
+			margin-left:  5px;
+		}
+	}
+	h3 {
+		font-size:     35px;
+		position:      relative;
+		margin-top:    70px;
+		margin-bottom: 0px;
+		color:         #333;
+		&:before {
+			position:    absolute;
+			width:       500px;
+			left:        50%;
+			margin-left: -250px;
+			top:         -30px;
+			content:     "";
+		}
+	}
+	.regency {
+		text-transform: uppercase;
+		font-size:      12px;
+	}
+}

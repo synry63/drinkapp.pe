@@ -1,0 +1,71 @@
+/* Top Drawer */
+.accordion-toggle {
+	line-height: 30px;
+}
+
+#rt-drawer {
+	position: relative;
+	z-index:  99998;
+	#collapseDrawer {
+		overflow: hidden;
+		&.collapse {
+			display: block;
+		}
+		.widget {
+			text-align: center;
+			padding:    15px 50px;
+		}
+		.textwidget a {
+		}
+	}
+	.drawer_link {
+		position:    absolute;
+		width:       50px;
+		height:      100%;
+		line-height: 60px;
+		text-align:  center;
+		right: 20px;
+		top:         0;
+		z-index:     999;
+		a {
+			font-size: 26px;
+			&.collapsed {
+				i:before {
+					content: "\f107";
+				}
+			}
+		}
+	}
+	&.style1 {
+
+	}
+	&.style2 {
+		position: absolute;
+		top:      0;
+		width:    100%;
+		z-index:  99999;
+		.drawer_link {
+			background:   transparent;
+			width:        0;
+			height:       40px;
+			line-height:  28px;
+			top:          auto;
+			bottom:       -40px;
+			border-style: solid;
+			border-width: 0 40px 40px 0;
+			border-color: transparent #eb583c transparent transparent !important;
+			.fa-angle-up:before {
+				content:   "\f068";
+				font-size: 11px;
+				position:  absolute;
+				left:      24px;
+				top:       0px;
+			}
+			a.collapsed i:before {
+				content: "\f067";
+			}
+		}
+	}
+}
+
+/* End Top Drawer */

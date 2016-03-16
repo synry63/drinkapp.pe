@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10,se-1.1.0/datatables.min.css"/>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/s/dt/jq-2.1.4,dt-1.10.10,se-1.1.0/datatables.min.js"></script>
+
+    <script type="text/javascript" src="jquery.noty.packaged.min.js"></script>
+
+
+    <style>
+        td.details-control {
+            background: url('ressources/details_open.png') no-repeat center center;
+            cursor: pointer;
+        }
+        tr.shown td.details-control {
+            background: url('ressources/details_close.png') no-repeat center center;
+        }
+        .select-info{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<table id="main" class="display compact" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <th></th>
+        <th>Pedido ID</th>
+        <th>Fecha y Hora</th>
+        <th>Nombre</th>
+        <th>Apelidos</th>
+        <th>Celular</th>
+        <th>Email</th>
+        <th>Direccion</th>
+        <th>Distrito</th>
+        <th>Referencias</th>
+
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th></th>
+        <th>Pedido ID</th>
+        <th>Fecha y Hora</th>
+        <th>Nombre</th>
+        <th>Apelidos</th>
+        <th>Celular</th>
+        <th>Email</th>
+        <th>Direccion</th>
+        <th>Distrito</th>
+        <th>Referencias</th>
+    </tr>
+    </tfoot>
+</table>
+<button id="pedido-clear">PEDIDO ENTREGADO</button>
+
+<script>
+
+    $(document).ready(function() {
+        var events = $('#events');
+        /* Formatting function for row details - modify as you need */
+        function format ( order ) {
+            // `d` is the original data object for the row
+            var total = 0;
+            var html = '';
+            for (var i=0;i<order.order_items.length;i++){
+                total += (order.order_items[i].cantidad*parseFloat(order.order_items[i].bebida.price));
+                html+='<tr>';
+                html+='<td>'+order.order_items[i].cantidad+' x '+order.order_items[i].bebida.nombre+'</td>';
+                html+='</tr>';
+            }
+            html+='<tr><td>Methodo de Pago : '+order.pago_tipo.nombre+'</td></tr>';
+
+            html+='<tr><td>Total a Pagar : '+total.toFixed(2)+' soles</td></tr>';
+
+            if(order.pago_tipo.nombre=='Effectivo'){
+                html+='<tr><td>Cancela con : '+order.pago_effectivo_cantidad+' soles</td></tr>';
+            }
+
+            return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+                    html+
+                    '</table>';
+        }
+
+        var table = $('#main').DataTable( {
+
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+            },
+            "ajax":{
+                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos",
+                "dataSrc": ""
+            },
+            "iDisplayLength": -1,
+            "bFilter": false,
+            select: true,
+            "bLengthChange": false,
+            "columns": [
+                {
+                    "className":      'details-control',
+                    "orderable":      false,
+                    "data":           null,
+                    "defaultContent": ''
+                },
+                { "data": "id",
+                    "render": function ( data, type, row ) {
+                        return 'DAPP'+data;
+                    }
+
+                },
+                {
+                    "data": "fecha_pendente",
+                    "render": function ( data, type, row ) {
+                        // If display or filter data is requested, format the date
+                        if ( type === 'display' || type === 'filter' ) {
+                            var d = new Date( data * 1000 );
+                            return d.getDate() +'-'+ (d.getMonth()+1) +'-'+ d.getFullYear()+' a las '+d.getHours()+'h con '+d.getMinutes()+'min';
+                        }
+
+                        // Otherwise the data type requested (`type`) is type detection or
+                        // sorting data, for which we want to use the integer, so just return
+                        // that, unaltered
+                        return data;
+                    }
+                },
+                { "data": "user.nombre" },
+                { "data": "user.apellidos" },
+                { "data": "user.celular" },
+                { "data": "user.email" },
+                { "data": "direccion.calle" },
+                { "data": "direccion.distrito" },
+                { "data": "direccion.referencias" }
+            ],
+            "order": [[1, 'desc']]
+        } );
+        table
+                .on( 'select', function ( e, dt, type, indexes ) {
+                    rowDataSelected = table.rows( indexes ).data().toArray()[0];
+                    //events.prepend( '<div><b>'+type+' selection</b> - '+JSON.stringify( rowData )+'</div>' );
+                } )
+                .on( 'deselect', function ( e, dt, type, indexes ) {
+                    rowDataSelected = undefined;
+                    //var rowData = table.rows( indexes ).data().toArray();
+                    //events.prepend( '<div><b>'+type+' <i>de</i>selection</b> - '+JSON.stringify( rowData )+'</div>' );
+                } );
+
+        $("#pedido-clear").click(function(){
+            if(rowDataSelected!=undefined){
+                $('#pedido-clear').attr('disabled','disabled');
+                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/pedido_clear?id="+rowDataSelected.id, function( data,status ) {
+                    if(status=='success'){
+                        eval(data.msg);
+                        rowDataSelected = undefined;
+                        table.ajax.reload();
+                        setTimeout(function(){
+                            $('#pedido-clear').removeAttr('disabled');
+                        }, 3000);
+
+                    }
+
+
+                });
+            }
+
+        });
+
+// Add event listener for opening and closing details
+        $('#main tbody').on('click', 'td.details-control', function () {
+            var tr = $(this).closest('tr');
+            var row = table.row( tr );
+
+            if ( row.child.isShown() ) {
+                // This row is already open - close it
+                row.child.hide();
+                tr.removeClass('shown');
+            }
+            else {
+
+                var raw_data = row.data();
+
+                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/getOrderItems_get?id="+raw_data.id, function( data ) {
+                    // Open this row
+                    raw_data.order_items = data;
+                    row.child( format(raw_data) ).show();
+                    tr.addClass('shown');
+                });
+
+
+            }
+        } );
+        setInterval( function () {
+            table.ajax.reload();
+        }, 120000 );
+
+    } );
+</script>
+</body>
+</html>

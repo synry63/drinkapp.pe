@@ -1,0 +1,251 @@
+@media @lg{
+	.col-lg-20 {
+		.make-lg-column(2.4);
+		display:        inline-block;
+		vertical-align: top;
+	}
+
+	.col-lg-80 {
+		.make-lg-column(9.6);
+		display:        inline-block;
+		vertical-align: top;
+	}
+}
+
+#footer {
+	.footer {
+		a {
+			text-decoration: none;
+ 		}
+		.col-lg-20 .col-sm-6 {
+			border-right: 1px solid #111111;
+		}
+		.box-heading-footer {
+			font-size:      15px;
+			font-weight:    500;
+			text-transform: uppercase;
+			border-radius:  0;
+			letter-spacing: 2px;
+ 			span {
+				display: inline-block;
+ 			}
+		}
+ 	}
+	.contact {
+		padding-bottom: 30px;
+		&:after {
+			display: table;
+			content: "";
+			clear:   both;
+		}
+	}
+	.show-border {
+		.contact {
+			> div {
+				&:last-child {
+					&:before {
+						display: none;
+					}
+				}
+			}
+			> div {
+				&:before {
+					content:          '';
+ 					width:            1px;
+					height:           1000px;
+					position:         absolute;
+					right:            0;
+					top:              0;
+					z-index:          2;
+				}
+			}
+		}
+	}
+
+	.footer-bottom {
+		.mc4wp-form {
+			margin: 0 !important;
+			input {
+				vertical-align: top !important;
+			}
+		}
+		padding:    15px 0;
+
+		li {
+			margin-bottom: 0;
+		}
+		.row {
+			padding-top:    15px;
+			padding-bottom: 15px;
+			> div {
+				padding-right: 0;
+				padding-left:  0;
+			}
+		}
+	}
+
+	#powered {
+ 		padding:    30px 0;
+ 		.contact {
+			padding: 0;
+		}
+		.copyright {
+			opacity:        0.8;
+			letter-spacing: 1px;
+			padding-left:   0;
+			a {
+ 				text-decoration: none;
+			}
+		}
+		.payment {
+			padding-right: 0;
+		}
+
+	}
+	h3 {
+		position:       relative;
+		text-transform: uppercase;
+		margin:         0 -15px 25px;
+		span:before {
+			display: none;
+		}
+		span {
+			opacity: .9;
+			padding: 12px;
+		}
+	}
+	ul {
+		margin:  0;
+		padding: 0;
+	}
+	li {
+		list-style:    none;
+		margin-bottom: 10px;
+
+	}
+	.container {
+		overflow: hidden;
+	}
+	.contact li {
+		margin-bottom: 15px;
+		&:hover {
+			.translate(10px, 0);
+			transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+		}
+		transition:    all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+}
+
+/*--------------------------------------------
+Contact
+----------------------------------------------*/
+
+.contact {
+	li:before {
+		.iconfont;
+		font-size:      16px;
+		margin-right:   5px;
+		width:          40px;
+		height:         40px;
+		line-height:    40px;
+		display:        inline-block;
+		text-align:     center;
+		vertical-align: top;
+		margin-top:     -5px;
+		border:         1px solid #DDD;
+		.rounded(50%);
+	}
+	.skype:before {
+		content: '\e626';
+	}
+	.email:before {
+		content: "\f0e0";
+	}
+	.mobile:before {
+		content:   "\f10b";
+		font-size: 20px;
+	}
+	.phone:before {
+		.zonefont;
+		content: "\e602";
+	}
+	.fax:before {
+		content: "\f1ac";
+	}
+	.skype, .mobile, .phone, .fax, .email {
+		position:     relative;
+		&:before {
+			position: absolute;
+			top:      6px;
+			left:     0;
+		}
+		padding-left: 52px;
+		min-height:   40px;
+	}
+}
+
+/*--------------------------------------------
+NewSletter
+----------------------------------------------*/
+.newsletter {
+	text-align:     right;
+	text-transform: uppercase;
+	input[type="email"] {
+		outline:        none;
+		font-size:      13px;
+		width:          320px !important;
+		padding-left:   15px;
+		border:         1px solid transparent;
+		height:         36px !important;
+		vertical-align: top;
+		display:        inline !important;
+		.transi();
+
+	}
+	input[type="submit"] {
+		padding:          0 20px;
+		text-transform:   uppercase;
+		font-size:        13px;
+		letter-spacing:   1px;
+		line-height:      36px;
+		height:           36px !important;
+		position:         relative;
+		overflow:         hidden;
+		color:            #fff;
+		border:           1px solid #ffffff;
+		background-color: transparent;
+		.transi();
+		&:hover {
+			color:      #fff;
+ 		}
+	}
+}
+
+.scrollup {
+ 	z-index:     2;
+	position:    fixed;
+	right:       40px;
+	line-height: 0;
+	color:       @white;
+	&:hover {
+		color: @white;
+
+	}
+}
+
+.scrollup:before {
+	content:   '\f102';
+	font-size: 30px;
+}
+
+@media (max-width: 767px) {
+	.newsletter input[type="email"] {
+		width: 175px !important;
+ 	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.newsletter input[type="email"] {
+		width: 195px !important;
+	}
+}

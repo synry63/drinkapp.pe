@@ -1,0 +1,116 @@
+ul.product-categories {
+	list-style:    none;
+	padding:       0 !important;
+ 	margin-left:   0;
+	margin-top:    0;
+	margin-bottom: 0;
+	li {
+		padding-left:   20px;
+		padding-top:    15px;
+		padding-bottom: 15px;
+		margin-top:     0;
+		margin-bottom:  0;
+		border-bottom:  1px solid #5D5C61;
+		&:hover {
+			background: #222222;
+		}
+		a {
+			color:          @white;
+			text-transform: uppercase;
+			font-size:      14px;
+		}
+		ul {
+			margin-top:    15px;
+			margin-bottom: 0;
+			margin-left:   -20px;
+			list-style:    none;
+			padding:       0;
+			li {
+				border:       none;
+				padding-left: 20px;
+				&:before {
+					content:      "\f0da";
+					color:        #666;
+					font-family:  "FontAwesome";
+					margin-right: 15px;
+				}
+				&:hover {
+ 					a {
+						color: #222222;
+					}
+					&:before {
+						color: #666;
+					}
+				}
+				a {
+					text-transform: none;
+					color:          #878787;
+				}
+			}
+			li.cat-parent {
+				border:       none;
+				padding-left: 20px;
+				&:before {
+					content:      "\f0da";
+					color:        #666;
+					font-family:  "FontAwesome";
+					margin-right: 15px;
+				}
+				&:hover {
+					background: #222;
+					a {
+						color: #878787;
+					}
+					&:before {
+						color: #666;
+					}
+				}
+				a {
+					text-transform: none;
+					color:          #878787;
+				}
+			}
+		}
+	}
+	li.cat-parent {
+		padding-bottom: 0;
+		border:         none;
+		i {
+			display: none;
+		}
+	}
+}
+
+.menu-left {
+	h4 {
+		margin:        0;
+		padding:       15px;
+		border-bottom: none;
+		&:before {
+			content:    '';
+ 			width:      3px;
+			height:     30px;
+			position:   absolute;
+			left:       0;
+		}
+		&:after {
+			font-family:    'FontAwesome';
+			font-style:     normal;
+			font-weight:    normal;
+			font-variant:   normal;
+			text-transform: none;
+			line-height:    1;
+			content:        "\f03a";
+			display:        inline-block;
+			float:          left;
+			margin-top:     6px;
+			margin-right:   15px;
+			margin-left:    0px;
+			font-size:      15px;
+		}
+	}
+}
+
+.widget_product_categories {
+	margin-top: 30px;
+}

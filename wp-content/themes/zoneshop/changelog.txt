@@ -1,0 +1,32 @@
+/********* Updated to version 1.1
+ -- fix mobile menu
+ -- fix rating in product
+ -- out of date after update version 2.3.8
+ -- fix security
+/********* Updated to version 1.2
+ -- fix hot, new
+
+/********* Updated to version 1.3 (1-6-2015)
+-- fix install plugin require
+-- fix languages in detail product
+-- add file languages (default.pot)
+-- fix customizer footer not working
+-- fix Markers icon in widget google map not working
+-- add new style for button add quick view in list product
+-- fix UI in backend
+
+/********* Updated to version 1.4
+-- remove option not working in category product
+-- fix submenu in mobile
+
+/********* Updated to version 1.5
+-- Fix footer not alignment.
+-- Add select type new product in widget product slider.
+-- Fix product width variations.
+
+/********* Updated to version 1.6
+-- out of date after update version 2.4.x
+-- fix layout option of footer.
+-- fix layout class.
+-- compatible WP 4.3
+

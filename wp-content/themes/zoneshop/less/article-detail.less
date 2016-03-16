@@ -1,0 +1,116 @@
+/*== Details Blog ==*/
+.top_site_main {
+	margin-bottom: 30px;
+	background: @white;
+	.page-title-wrapper {
+		.breadcrumbs {
+			margin-bottom: 30px;
+			font-size:     16px;
+			.ulbreadcrumbs {
+				padding-left: 15px;
+				li {
+					color:   rgb(102, 102, 102);
+					padding: 15px 0;
+					a:after {
+						content:        "\f0da";
+						display:        inline-block;
+						line-height:    14px;
+						vertical-align: top;
+						margin:         5px 10px;
+						font-family:    FontAwesome;
+					}
+				}
+			}
+		}
+	}
+}
+
+.kbm-article-page {
+	padding:    15px;
+	background: @white;
+	.entry-title {
+		margin: 0px 0px 15px;
+	}
+	.article-extra-info {
+		margin-bottom: 20px;
+		.author {
+			margin-right: 15px;
+			a {
+ 				&:before {
+					content:       "\e60e";
+					font-family:   kuler;
+					font-size:     14px;
+					color:         rgb(102, 102, 102);
+					padding-right: 10px;
+				}
+ 			}
+		}
+		.entry-date {
+			position: relative;
+			&:before {
+				content:       "\e60c";
+				font-family:   kuler;
+				font-size:     14px;
+				color:         rgb(102, 102, 102);
+				padding-right: 10px;
+			}
+		}
+	}
+	.article-details {
+		.last-update {
+			text-align: right;
+		}
+	}
+}
+
+#comments {
+	padding: 15px;
+	.comment-stats {
+		padding:          10px 20px;
+ 		font-weight:      600;
+		font-size:        18px;
+		&:before {
+			color: rgb(102, 102, 102) !important;
+		}
+	}
+	.comment-list {
+		margin-top: 20px;
+	}
+	.comment-respond {
+		border-top:  1px solid @border-color;
+		padding-top: 15px;
+		.comment-reply-title {
+			font-size:      15px !important;
+			font-weight:    400 !important;
+			letter-spacing: 1px !important;
+			padding-left:   0 !important;
+			margin-bottom:  15px !important;
+		}
+		.comment-form {
+			p {
+				label {
+					padding-right: 25px;
+					.required {
+						color: #FF4500;
+					}
+				}
+			}
+			.comment-form-comment {
+				label {
+					padding-right: 15px;
+				}
+			}
+			.form-submit {
+				.submit {
+					padding:    10px 15px;
+					outline:    none;
+ 					color:      @white !important;
+					border:     none !important;
+					&:hover {
+ 						color:      @white !important;
+					}
+				}
+			}
+		}
+	}
+}

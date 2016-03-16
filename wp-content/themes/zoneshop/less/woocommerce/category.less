@@ -1,0 +1,68 @@
+@import (reference) "../elements";
+@import (reference) "../variables";
+
+.category-info{
+  text-align: left;
+  .clear;
+  .image{
+    float: left;
+    border-right: 1px solid @border-color;
+  }
+  p {
+    padding-left: 20px;
+  }
+}
+
+.product-filter{
+	line-height: 34px;
+	background-color: #313133;
+	padding: 15px 30px 0 15px;
+	color: #888;
+	a{
+		text-decoration: none;
+	}
+	div[class^="col"]{
+		margin-bottom: 15px;
+		b{
+			font-weight: 400;
+		}
+	}
+	.display{
+		a{
+			color: #DDDDDD;
+		}
+		span{
+			color: #ffffff;
+		}
+		a,span{
+			margin-right: 15px;
+			cursor: pointer;
+
+			&:before{
+				.iconfont;
+				margin-right: 5px;
+			}
+			&.list:before{
+				content: "\f03a";
+			}
+			&.grid:before{
+				content: "\f009";
+			}
+		}
+	}
+	.product-compare a{
+		color: #878787;
+	}
+	.limit {
+		b {
+			margin-right: 5px;
+		}
+	}
+	select{
+		padding: 0 10px;
+		background-color: #222222;
+		border-color: transparent !important;
+		color: #888;
+		outline: 0;
+	}
+}

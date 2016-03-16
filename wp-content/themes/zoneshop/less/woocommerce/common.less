@@ -1,0 +1,248 @@
+/*--------------------------------------------
+Combo CSS
+----------------------------------------------*/
+.clr {
+	.clearfix;
+}
+
+.icf {
+	font-family:    'FontAwesome';
+	font-style:     normal;
+	font-weight:    normal;
+	font-variant:   normal;
+	text-transform: none;
+	line-height:    1;
+}
+
+.zone {
+	font-family:    'zone';
+	font-style:     normal;
+	font-weight:    normal;
+	font-variant:   normal;
+	text-transform: none;
+}
+
+.kuler {
+	font-family:    'kuler';
+	font-style:     normal;
+	font-weight:    normal;
+	font-variant:   normal;
+	text-transform: none;
+	line-height:    1;
+}
+
+.tran {
+	.transition();
+}
+
+//  Products Grid
+
+.site-content.sidebar-left {
+	padding-top: 0 !important;
+}
+
+.product-grid {
+	//general
+	font-size:        0; ////?????
+	overflow:         hidden;
+	background-color: @white;
+	text-align:       center;
+	.thumb {
+		margin: 25px 0 38px;
+		.hover {
+			display: none;
+		}
+	}
+	.name {
+		margin-bottom: 10px;
+		font-weight:   500;
+		font-size:     16px;
+		position:      relative;
+
+	}
+	.price {
+		margin-bottom: 10px;
+		font-weight:   500;
+		font-size:     16px;
+	}
+
+	.details {
+		display: none;
+	}
+	//description
+	.description {
+		display: none;
+	}
+
+	.onsale {
+		position:    absolute;
+		//		top:         10px;
+		//		left:        10px;
+		width:       40px;
+		height:      40px;
+		text-align:  center;
+		line-height: 40px;
+		.rounded(100%);
+		font-size:   12px !important;
+		top:         10px !important;
+		left:        10px !important;
+		font-weight: 300 !important;
+	}
+}
+
+/*--------------------------------------------
+Pagination
+----------------------------------------------*/
+.pagination {
+	text-align:       center;
+	padding:          15px 0;
+	padding-top:      25px;
+	background-color: @white;
+	.links a, .links b {
+		margin:           0 1px;
+		font-size:        16px;
+		padding:          2px 15px;
+		display:          inline-block;
+		background-color: @white;
+
+	}
+}
+
+/*--------------------------------------------
+Breadcrumb
+----------------------------------------------*/
+nav.woocommerce-breadcrumb {
+	height:           60px;
+	line-height:      60px;
+	background-color: @white;
+	margin-bottom:    30px !important;
+	font-size:        15px;
+	padding-left:     15px !important;
+	a {
+		display:         inline-block;
+		text-decoration: none;
+		line-height:     1;
+		color:           #868686;
+		letter-spacing:  1px;
+		font-weight:     500;
+
+		&:after {
+			font-family:    "FontAwesome";
+			content:        "\f0da";
+			margin:         0 5px 0 9px;
+			font-size:      18px;
+			vertical-align: middle;
+			color:          #aaa;
+		}
+	}
+}
+
+.category-info {
+	background-color: @white;
+	border-bottom:    1px solid @border-color;
+	text-align:       center;
+	div {
+		padding: 15px;
+	}
+	h2 {
+		font-weight:      500;
+		font-size:        28px;
+		background-color: #CFE4CF;
+		color:            #313133;
+		padding:          10px 15px;
+		margin-bottom:    0;
+		margin-top:       0;
+	}
+}
+
+/*--------------------------------------------
+Product Info
+----------------------------------------------*/
+
+//tabs
+
+//related products
+
+//general
+#container {
+	overflow-x:   hidden;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+#content {
+	margin-bottom: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.tp-caption.start {
+	border:  none;
+	padding: 0;
+	margin:  0;
+}
+
+#order-total-content {
+	#button-confirm {
+		display: none;
+	}
+}
+
+#login-popup {
+	padding:          30px;
+	max-width:        700px;
+	margin:           0 auto;
+	background-color: @white;
+	position:         relative;
+	font-size:        0;
+	input {
+		width: 100%;
+	}
+}
+
+#login-form {
+	padding:          30px;
+	max-width:        300px;
+	margin:           0 auto;
+	background-color: @white;
+	position:         relative;
+	font-size:        0;
+	form {
+		font-size: 14px;
+	}
+	input {
+		width: 100%;
+	}
+}
+
+.cart-info {
+	thead {
+		background-color: @white;
+	}
+	.quantity img {
+		padding-top: 12px;
+	}
+}
+
+/*scroll up*/
+.scrollup {
+	font-size: 0;
+	cursor:    pointer;
+	padding:   5px 15px;
+	bottom:    -50px;
+	.transi();
+	&:hover {
+		font-size: 15px;
+	}
+	&:before {
+		.kulerfont;
+		content:   '\f102';
+		font-size: 30px;
+	}
+	&.show {
+		bottom:  50px;
+		opacity: 0.8;
+	}
+}

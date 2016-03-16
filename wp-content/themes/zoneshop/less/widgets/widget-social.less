@@ -1,0 +1,84 @@
+/*--------------------------------------------
+Social newsletter
+//----------------------------------------------*/
+.thim-social {
+	li {
+		display:       inline-block;
+		margin-bottom: 5px;
+		margin-right: 2px;
+
+	}
+	a:before {
+		font-family: 'kuler';
+		width:       36px;
+		height:      36px;
+		line-height: 36px;
+		text-align:  center;
+		display:     inline-block;
+		font-size:   16px;
+		margin: 0;
+		overflow:    visible;
+		border:      1px solid transparent;
+		color: #767677;
+	}
+
+	.facebook:before {
+		content: '\e606';
+	}
+	.twitter:before {
+		content: '\e608';
+	}
+	.google_plus:before {
+		content: '\e600';
+	}
+	.youtube:before {
+		content: '\e613';
+	}
+	.rss:before {
+		content: '\e60b';
+	}
+	.pinterest:before {
+		content: '\e61e';
+	}
+	.instagram:before {
+		content: '\e625';
+	}
+	.icon-style-icon {
+		li a:before {
+			background: none;
+		}
+	}
+	.icon-size-24px {
+		li a:before {
+			width:       24px;
+			height:      24px;
+			line-height: 24px;
+			font-size:   12px;
+		}
+	}
+	.icon-size-32px {
+		li a:before {
+			width:       36px;
+			height:      36px;
+			line-height: 36px;
+		}
+	}
+	.icon-size-48px {
+		li a:before {
+			width:       48px;
+			height:      48px;
+			line-height: 48px;
+			font-size:   22px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.thim-widget-social {
+		.thim-social {
+			ul {
+				padding-left: 30px;
+			}
+		}
+	}
+}
