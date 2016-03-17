@@ -93,7 +93,7 @@ if ( !is_user_logged_in() ) {
         ion.sound({
             sounds: [
                 {
-                    name: "metal_plate_2",
+                    name: "exclamacion",
                     preload: true
                 }
             ],
@@ -218,8 +218,9 @@ if ( !is_user_logged_in() ) {
                                     body: "Nuevo Pedido Recibido ! Numero DAPP"+new_pedido.id
                                 });
                             }
-                            ion.sound.play("metal_plate_2");
+
                         }
+                        ion.sound.play("exclamacion");
 
                     }
 
