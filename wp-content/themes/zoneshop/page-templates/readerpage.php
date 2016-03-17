@@ -289,10 +289,8 @@ if ( !is_user_logged_in() ) {
             }
         } );
         setInterval( function () {
-            table.ajax.reload(function(data){
-
-            });
-        }, 3000 ); //120000
+            table.ajax.reload();
+        }, 120000 ); //120000
 
     } );
 </script>
