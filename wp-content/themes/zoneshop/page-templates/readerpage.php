@@ -74,17 +74,20 @@ if ( !is_user_logged_in() ) {
 <script>
 
     $(document).ready(function() {
+
+        /*navigator.serviceWorker.register('https://s3-sa-east-1.amazonaws.com/spaceama/sw.js');
+        Notification.requestPermission(function(result) {
+            if (result === 'granted') {
+                navigator.serviceWorker.ready.then(function(registration) {
+                    registration.showNotification('Notification with ServiceWorker');
+                });
+            }
+        });*/
         if (Notification.permission !== "granted") Notification.requestPermission();
         if (!Notification) {
             alert('Desktop notifications not available in your browser. Try Chrome.');
             return;
         }
-        /*setInterval(function(){
-            var notification = new Notification('Notification title', {
-                icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
-                body: "Hey there! You've been notified!",
-            });
-        }, 3000);*/
 
 
         ion.sound({
@@ -106,11 +109,6 @@ if ( !is_user_logged_in() ) {
             }
         });
 
-
-        // using play for non preloaded sound
-        // will force loading process first
-        // and only when playback
-        ion.sound.play("metal_plate_2");
 
         var events = $('#events');
         /* Formatting function for row details - modify as you need */
@@ -211,15 +209,18 @@ if ( !is_user_logged_in() ) {
                     }
 
                     if(rows.length!=0){
-                        console.log('reste = '+new_rows.length);
                         var time_interval = 100;
                         for (var i=0;i<new_rows.length;i++){
                             var new_pedido = new_rows[i];
+                            if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
                                 var notification = new Notification('DrinkApp Notificación', {
                                     icon: 'http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/LOGO_158X158.png',
                                     body: "Nuevo Pedido Recibido ! Numero DAPP"+new_pedido.id
                                 });
+                            }
+                            ion.sound.play("metal_plate_2");
                         }
+
                     }
 
 
@@ -288,15 +289,8 @@ if ( !is_user_logged_in() ) {
         } );
         setInterval( function () {
             table.ajax.reload(function(data){
-                /*var notification = new Notification('Notification title', {
-                    icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
-                    body: "Hey there! You've been notified!",
-                });*/
-            });
 
-            /*notification.onclick = function () {
-                window.open("http://drinkapp.pe/reader/");
-            };*/
+            });
         }, 3000 ); //120000
 
     } );
