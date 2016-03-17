@@ -195,7 +195,41 @@ if ( !is_user_logged_in() ) {
                 /*for ( var i=0, ien=json.aaData.length ; i<ien ; i++ ) {
                     json.aaData[i].sum = json.aaData[i].one + json.aaData[i].two;
                 }*/
-                console.log(xhr);
+                if(table.data().length<xhr.responseJSON.length){
+                    var out = [];
+                    var rows = table.data();
+                    var new_rows = Object.create(json);
+                    for (var i=0;i<rows.length;i++){
+                        var a_row = rows[i];
+                        for (var j=0;j<new_rows.length;j++){
+                            var new_row = new_rows[j];
+                            if(a_row.id==new_row.id){
+                                new_rows.splice(j, 1);
+                            }
+                        }
+
+                    }
+
+                    if(rows.length!=0){
+                        console.log('reste = '+new_rows.length);
+                        var time_interval = 100;
+                        for (var i=0;i<new_rows.length;i++){
+                            var new_pedido = new_rows[i];
+                                var notification = new Notification('DrinkApp Notificación', {
+                                    icon: 'http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/LOGO_158X158.png',
+                                    body: "Nuevo Pedido Recibido ! Numero DAPP"+new_pedido.id
+                                });
+                        }
+                    }
+
+
+
+                }
+
+                //console.log( 'There are'+table.data().length+' row(s) of data in this table' );
+
+                //console.log( table.rows().data() );
+                //console.log(xhr.responseJSON);
                 // Note no return - manipulate the data directly in the JSON object.
             } )
             .on( 'select', function ( e, dt, type, indexes ) {
@@ -263,7 +297,7 @@ if ( !is_user_logged_in() ) {
             /*notification.onclick = function () {
                 window.open("http://drinkapp.pe/reader/");
             };*/
-        }, 120000 ); //120000
+        }, 3000 ); //120000
 
     } );
 </script>
