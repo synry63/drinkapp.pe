@@ -35,6 +35,14 @@ if ( !is_user_logged_in() ) {
         .select-info{
             display: none;
         }
+        .button-seccion{
+            margin-top: 25px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .button-seccion #pedido-cancel{
+            float: right;
+        }
     </style>
 </head>
 <body>
@@ -69,10 +77,16 @@ if ( !is_user_logged_in() ) {
     </tr>
     </tfoot>
 </table>
-<button id="pedido-clear">PEDIDO ENTREGADO</button>
+<div class="button-seccion">
+
+    <button id="pedido-clear">PEDIDO ENTREGADO</button>
+
+    <button id="pedido-cancel">PEDIDO CANCELADO</button>
+</div>
+
 
 <script>
-
+    rowDataSelected = undefined;
     $(document).ready(function() {
 
         /*navigator.serviceWorker.register('https://s3-sa-east-1.amazonaws.com/spaceama/sw.js');
@@ -260,6 +274,43 @@ if ( !is_user_logged_in() ) {
 
 
                 });
+                /*$.post( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/pedido_clear",{id:rowDataSelected.id}, function( data,status ) {
+                    if(status=='success'){
+                        eval(data.msg);
+                        rowDataSelected = undefined;
+                        table.ajax.reload();
+                        setTimeout(function(){
+                            $('#pedido-clear').removeAttr('disabled');
+                        }, 3000);
+
+                    }
+
+
+                });*/
+            }
+            else{
+                alert('NINGUN PEDIDO SELECIONADO');
+            }
+        });
+
+        $("#pedido-cancel").click(function(){
+            if(rowDataSelected!=undefined){
+                $('#pedido-cancel').attr('disabled','disabled');
+                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/pedido_cancel?id="+rowDataSelected.id, function( data,status ) {
+                    if(status=='success'){
+                        eval(data.msg);
+                        rowDataSelected = undefined;
+                        table.ajax.reload();
+                        setTimeout(function(){
+                            $('#pedido-cancel').removeAttr('disabled');
+                        }, 3000);
+
+                    }
+
+                });
+            }
+            else{
+                alert('NINGUN PEDIDO SELECIONADO');
             }
 
         });
