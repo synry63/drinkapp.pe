@@ -157,7 +157,7 @@ if ( !is_user_logged_in() ) {
                 "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
             },
             "ajax":{
-                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos_dev",
+                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos",
                 "dataSrc": ""
             },
             "iDisplayLength": -1,
