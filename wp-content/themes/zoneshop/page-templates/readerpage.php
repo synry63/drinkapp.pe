@@ -97,11 +97,15 @@ if ( !is_user_logged_in() ) {
                 });
             }
         });*/
-        if (Notification.permission !== "granted") Notification.requestPermission();
-        if (!Notification) {
-            alert('Desktop notifications not available in your browser. Try Chrome.');
-            return;
+        var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+        if(iOS!=true){
+            if (Notification.permission !== "granted") Notification.requestPermission();
+            if (!Notification) {
+                alert('Desktop notifications not available in your browser. Try Chrome.');
+                return;
+            }
         }
+
 
 
         ion.sound({
