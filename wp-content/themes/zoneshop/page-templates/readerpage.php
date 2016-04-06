@@ -226,7 +226,6 @@ if ( !is_user_logged_in() ) {
 
                     }
 
-                    if(rows.length!=0){
                         var time_interval = 100;
                         for (var i=0;i<new_rows.length;i++){
                             var new_pedido = new_rows[i];
@@ -239,10 +238,6 @@ if ( !is_user_logged_in() ) {
 
                         }
                         ion.sound.play("exclamacion");
-
-                    }
-
-
 
                 }
 
