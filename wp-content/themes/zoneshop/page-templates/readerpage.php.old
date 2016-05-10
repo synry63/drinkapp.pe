@@ -129,23 +129,19 @@ if ( !is_user_logged_in() ) {
 
 
         var events = $('#events');
-        var free_delivery = false;
         /* Formatting function for row details - modify as you need */
         function format ( order ) {
             // `d` is the original data object for the row
             var total = 0;
             var html = '';
             for (var i=0;i<order.order_items.length;i++){
-                if(!free_delivery && order.order_items[i].bebida.free_delivery==true){
-                    free_delivery = true;
-                }
                 total += order.order_items[i].cantidad*parseFloat(order.order_items[i].bebida.price);
 
                 html+='<tr>';
                 html+='<td>'+order.order_items[i].cantidad+' x '+order.order_items[i].bebida.nombre+'</td>';
                 html+='</tr>';
             }
-            if(!free_delivery) total+=3.5;
+            total+=3.5;
             html+='<tr><td>Methodo de Pago : '+order.pago_tipo.nombre+'</td></tr>';
 
             html+='<tr><td>Total a Pagar : '+total.toFixed(2)+' soles</td></tr>';
