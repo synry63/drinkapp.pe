@@ -119,7 +119,7 @@ if ( !is_user_logged_in() ) {
             path: "http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/sounds/",
             preload: false,
             multiplay: true,
-            volume: 0.9,
+            volume: 1,
 
             scope: this, // optional scope
             ready_callback: function(){
