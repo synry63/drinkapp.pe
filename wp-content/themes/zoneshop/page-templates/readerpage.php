@@ -165,7 +165,7 @@ if ( !is_user_logged_in() ) {
                 "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
             },
             "ajax":{
-                "url":"http://vrac.ryma-soluciones.com/drinkapp_app_backend/getPedidos",
+                "url":"http://superapi.drinkapp.pe/drinkapp_src/getPedidos",
                 "dataSrc": ""
             },
             "iDisplayLength": -1,
@@ -264,7 +264,7 @@ if ( !is_user_logged_in() ) {
         $("#pedido-clear").click(function(){
             if(rowDataSelected!=undefined){
                 $('#pedido-clear').attr('disabled','disabled');
-                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/pedido_clear?id="+rowDataSelected.id, function( data,status ) {
+                $.get( "http://superapi.drinkapp.pe/drinkapp_src/pedido_clear?id="+rowDataSelected.id, function( data,status ) {
                     if(status=='success'){
                         eval(data.msg);
                         rowDataSelected = undefined;
@@ -299,7 +299,7 @@ if ( !is_user_logged_in() ) {
         $("#pedido-cancel").click(function(){
             if(rowDataSelected!=undefined){
                 $('#pedido-cancel').attr('disabled','disabled');
-                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/pedido_cancel?id="+rowDataSelected.id, function( data,status ) {
+                $.get( "http://superapi.drinkapp.pe/drinkapp_src/pedido_cancel?id="+rowDataSelected.id, function( data,status ) {
                     if(status=='success'){
                         eval(data.msg);
                         rowDataSelected = undefined;
@@ -332,7 +332,7 @@ if ( !is_user_logged_in() ) {
 
                 var raw_data = row.data();
 
-                $.get( "http://vrac.ryma-soluciones.com/drinkapp_app_backend/getOrderItems_get?id="+raw_data.id, function( data ) {
+                $.get( "http://superapi.drinkapp.pe/drinkapp_src/getOrderItems_get?id="+raw_data.id, function( data ) {
                     // Open this row
                     raw_data.order_items = data;
                     row.child( format(raw_data) ).show();
