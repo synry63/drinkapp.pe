@@ -166,7 +166,9 @@ if ( !is_user_logged_in() ) {
             },
             "ajax":{
                 "url":"http://superapi.drinkapp.pe/drinkapp_src/getPedidos",
-                "dataSrc": ""
+                "dataSrc": "",
+                "timeout":15000
+
             },
             "iDisplayLength": -1,
             "bFilter": false,
@@ -215,36 +217,40 @@ if ( !is_user_logged_in() ) {
                 /*for ( var i=0, ien=json.aaData.length ; i<ien ; i++ ) {
                     json.aaData[i].sum = json.aaData[i].one + json.aaData[i].two;
                 }*/
-                if(table.data().length<xhr.responseJSON.length){
-                    var out = [];
-                    var rows = table.data();
-                    var new_rows = Object.create(json);
-                    for (var i=0;i<rows.length;i++){
-                        var a_row = rows[i];
-                        for (var j=0;j<new_rows.length;j++){
-                            var new_row = new_rows[j];
-                            if(a_row.id==new_row.id){
-                                new_rows.splice(j, 1);
+                try {
+                    if(table.data().length<xhr.responseJSON.length){
+                        var out = [];
+                        var rows = table.data();
+                        var new_rows = Object.create(json);
+                        for (var i=0;i<rows.length;i++){
+                            var a_row = rows[i];
+                            for (var j=0;j<new_rows.length;j++){
+                                var new_row = new_rows[j];
+                                if(a_row.id==new_row.id){
+                                    new_rows.splice(j, 1);
+                                }
                             }
+
                         }
+
+                            var time_interval = 100;
+                            for (var i=0;i<new_rows.length;i++){
+                                var new_pedido = new_rows[i];
+                                if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+                                    var notification = new Notification('DrinkApp Notificación', {
+                                        icon: 'http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/LOGO_158X158.png',
+                                        body: "Nuevo Pedido Recibido ! Numero DAPP"+new_pedido.id
+                                    });
+                                }
+
+                            }
+                            ion.sound.play("exclamacion");
 
                     }
-
-                        var time_interval = 100;
-                        for (var i=0;i<new_rows.length;i++){
-                            var new_pedido = new_rows[i];
-                            if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
-                                var notification = new Notification('DrinkApp Notificación', {
-                                    icon: 'http://drinkapp.pe/wp-content/themes/zoneshop/page-templates/reader/ressources/LOGO_158X158.png',
-                                    body: "Nuevo Pedido Recibido ! Numero DAPP"+new_pedido.id
-                                });
-                            }
-
-                        }
-                        ion.sound.play("exclamacion");
-
                 }
-
+                catch(err) {
+                    alert('un error se produjo, recarge la pagina por favor');
+                }
                 //console.log( 'There are'+table.data().length+' row(s) of data in this table' );
 
                 //console.log( table.rows().data() );
